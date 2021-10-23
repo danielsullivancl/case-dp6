@@ -29,7 +29,7 @@ url_atual = window.location.href
 
 //*********************************** pageview e eventos da index.html *********************************************
 
-if (url_atual == 'http://localhost:5000/index.html' || url_atual == 'http://localhost:5000/') {
+if (url_atual.contains('index.html')) {
 
 	ga('send', 'pageview', '/index.html');
 	document.getElementById("link-contato").addEventListener('click', function(){
@@ -46,7 +46,7 @@ if (url_atual == 'http://localhost:5000/index.html' || url_atual == 'http://loca
 
 
 //*********************************** pageview e eventos da analise.html *********************************************
-if (url_atual == 'http://localhost:5000/analise.html') {
+if (url_atual.contains('analise.html')) {
 	ga('send', 'pageview', '/analise.html');
 
 	document.getElementById("btn-lorem").addEventListener('click', function(){
@@ -68,7 +68,7 @@ if (url_atual == 'http://localhost:5000/analise.html') {
 
 
 //*********************************** pageview e eventos da sobre.html *********************************************
-if (url_atual == 'http://localhost:5000/sobre.html') {
+if (url_atual.contains('sobre.html')) {
 
 	ga('send', 'pageview', '/sobre.html');
 
