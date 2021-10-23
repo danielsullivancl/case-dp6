@@ -46,7 +46,7 @@ if (url_atual.indexOf('index.html') > -1) {
 
 
 //*********************************** pageview e eventos da analise.html *********************************************
-if (url_atual.indexOf('analise.html') > -1)) {
+if (url_atual.indexOf('analise.html') > -1) {
 	ga('send', 'pageview', '/analise.html');
 
 	document.getElementById("btn-lorem").addEventListener('click', function(){
@@ -69,7 +69,7 @@ if (url_atual.indexOf('analise.html') > -1)) {
 
 //*********************************** pageview e eventos da sobre.html *********************************************
 if (url_atual.indexOf('sobre.html') > -1) {
-
+	alert('teste')
 	ga('send', 'pageview', '/sobre.html');
 
 	input_name = document.getElementById("nome");
