@@ -69,7 +69,6 @@ if (url_atual.indexOf('analise.html') > -1) {
 
 //*********************************** pageview e eventos da sobre.html *********************************************
 if (url_atual.indexOf('sobre.html') > -1) {
-	alert('teste')
 	ga('send', 'pageview', '/sobre.html');
 
 	input_name = document.getElementById("nome");
