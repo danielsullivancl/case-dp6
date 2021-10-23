@@ -29,7 +29,7 @@ url_atual = window.location.href
 
 //*********************************** pageview e eventos da index.html *********************************************
 
-if ((url_atual.indexOf('index.html') > -1) or (url_atual == 'https://danielsullivancl.github.io/case-dp6/')) {
+if ((url_atual.indexOf('index.html') > -1) || (url_atual == 'https://danielsullivancl.github.io/case-dp6/')) {
 
 	ga('send', 'pageview', '/index.html');
 	document.getElementById("link-contato").addEventListener('click', function(){
